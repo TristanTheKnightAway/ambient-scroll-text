@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header-position {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index:-500;
+}
+
+.text__video-cover {
+  margin-top: 40vh;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width: 600px;
+  font-size: 44px;
+  padding: 0px 60px;
+  line-height: 1.2;
+  font-weight: 300;
+  letter-spacing: .02em;
+  text-shadow: 1px 1px 12px rgba(0, 0, 0, 0.75);
+  color: white;
+  position: relative;
+  margin-bottom: 80vh;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.text__video-title {
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.text__title {
+  font-size: 44px;
+  color: 
+}
+
+.text__paragraph {
+  font-size: 16px;
+  color: #373737;
+  line-height: 1.4;
+}
+
+.content-wrapper {
+  background-color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #373737;
+  margin: 0;
+  padding: 2em 30%;
+  position: relative;
+  line-height: 1.4;
+}
+
+
+
